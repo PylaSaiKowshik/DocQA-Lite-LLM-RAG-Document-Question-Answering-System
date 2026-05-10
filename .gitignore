@@ -32,3 +32,4 @@ stability_results.json
 app.py
 evaluate_pdf.py
 index.html
+docmind_rag/saved_summaries/
