@@ -1,4 +1,4 @@
-# Ignore virtual environment
+# Ignore virtual environments
 venv/
 venv-genai+qa/
 
@@ -13,4 +13,22 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
-uploads
+
+# Uploads folder
+uploads/
+
+# Sample outputs
+sample outputs/
+
+# Grounding datasets & results
+grounding_dataset.json
+grounding_dataset_crop.json
+grounding_dataset_ethics.json
+grounding_dataset_news.json
+grounding_results.json
+stability_results.json
+
+# App / evaluation files
+app.py
+evaluate_pdf.py
+index.html
